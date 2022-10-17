@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container .menu {
+    display: flex;
+    justify-content: center; 
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 3cm;
+    padding-right: 3cm;
+    padding: 10px 1cm 10px 1cm;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.container .menu .logo{ 
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li {
+    display: inline;
+    margin-right: 1cm;
+    font-size: 18px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+.menu ul li a:hover {
+    text-decoration: none;
+    color: rgb(255, 208, 0);
+}
